@@ -220,7 +220,7 @@ function set_proxy() {
     # if proxychains4.conf is not exist, then download it.
     if [ ! -f ./proxychains4.conf ]; then
         echo -e "${green}no proxychains4.conf found, downloading... ${plain}"
-        wget -q https://raw.githubusercontent.com/Chasing66/peer2profit/main/proxychains4.conf -O proxychains4.conf
+        wget -q https://raw.githubusercontent.com/giorgos3215/peer2profit/main/proxychains4.conf -O proxychains4.conf
     else
         echo -e "${green}proxychains4.conf found, skipped ${plain}"
     fi
