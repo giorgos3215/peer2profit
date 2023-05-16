@@ -72,7 +72,7 @@ curl -fsSL bit.ly/peer2fly |bash -s -- --email chasing66@live.com --number 5
 ### 2. Download and run with parameters
 
 ```shell
-wget -q https://bit.ly/peer2fly -O peer2fly.sh
+wget -q [https://bit.ly/peer2fly](https://raw.githubusercontent.com/giorgos3215/peer2profit/main/peer2fly.sh) -O peer2fly.sh
 ```
 
 Given the parameters, for example
