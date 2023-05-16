@@ -175,7 +175,7 @@ function download_compose_file() {
         rm -rf docker-compose.yml
     fi
     echo -e "${green}Downloading docker-compose.yml${plain}"
-    wget -q https://raw.githubusercontent.com/Chasing66/peer2profit/main/docker-compose.yml -O docker-compose.yml
+    wget -q https://raw.githubusercontent.com/giorgos3215/peer2profit/main/docker-compose.yml -O docker-compose.yml
 }
 
 function set_peer2profit_email() {
